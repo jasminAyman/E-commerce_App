@@ -17,7 +17,9 @@ function Details() {
   useEffect( ()=>{
     fetch(`https://fakestoreapi.com/products/${params.id}`)
             .then(res=>res.json())
-            .then(json=>setProduct(json))        
+            .then(json=>setProduct(json)) 
+            
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   } ,[])
 
   return (
