@@ -19,7 +19,7 @@ function Navbar() {
                     <Link className="nav-link active" aria-current="page" to="/" >Home</Link>
                     <Link className="nav-link" to="/products" >Products</Link>
                     <Link className="nav-link" to="/about" >About</Link>
-                    <Link className="nav-link" to="/contact" >Contact</Link>
+                    <Link className="nav-link" to="/contact" >Contact Us</Link>
                     </div>
                     <div className='buttons'>
                         <button className="btn btn-outline-dark me-1"> <i className="fa fa-sign-in"></i> Login </button>
